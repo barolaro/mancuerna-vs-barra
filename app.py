@@ -23,7 +23,7 @@ if st.button("🔥 Iniciar pelea"):
         st.image("mancuerna_gana.png", caption="💪 ¡Mancuerna gana!", use_container_width=True)
         st.success("🏆 Hoy toca entrenar con **MANCUERNA**")
     else:
-        st.image("Barra gana.png", caption="🏋️‍♂️ ¡Barra gana!", use_container_width=True)
+        st.image("Barra_gana.png", caption="🏋️‍♂️ ¡Barra gana!", use_container_width=True)
         st.success("🏆 Hoy toca entrenar con **BARRA**")
 
     st.balloons()
