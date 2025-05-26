@@ -20,14 +20,15 @@ if st.button("🔥 Iniciar pelea"):
     st.markdown("### ✨ ¡Resultado!")
 
     if ganador == "Mancuerna":
-        st.image("mancuerna_gana.png", caption="💪 Mancuerna gana", use_container_width=True)
-        st.success("🏆 Hoy toca entrenar con MANCUERNA")
+        st.image("mancuerna_gana.png", caption="💪 ¡Mancuerna gana!", use_container_width=True)
+        st.success("🏆 Hoy toca entrenar con **MANCUERNA**")
     else:
-        st.image("Barra_gana.png", caption="🏋️‍♂️ Barra gana", use_container_width=True)
-        st.success("🏆 Hoy toca entrenar con BARRA")
+        st.image("Barra gana.png", caption="🏋️‍♂️ ¡Barra gana!", use_container_width=True)
+        st.success("🏆 Hoy toca entrenar con **BARRA**")
 
     st.balloons()
 
-# Reiniciar batalla
-if st.button("🔁 Volver a intentar"):
-    st.experimental_rerun()
+# 🔁 Botón para volver a empezar
+if st.button("🔁 Jugar otra vez"):
+    st.rerun()
+
